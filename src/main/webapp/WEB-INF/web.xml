@@ -1,0 +1,66 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>Create</servlet-name>
+  <servlet-class>com.ty.student.controller.CreateStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Create</servlet-name>
+  <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Display</servlet-name>
+  <servlet-class>com.ty.student.controller.GetStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Display</servlet-name>
+  <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>com.ty.student.controller.DeleteStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Delete</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>GetStudent</servlet-name>
+  <servlet-class>com.ty.student.controller.UpdateStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>GetStudent</servlet-name>
+  <url-pattern>/getstudent</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Edit</servlet-name>
+  <servlet-class>com.ty.student.controller.EditStudent</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Edit</servlet-name>
+  <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Get</servlet-name>
+  <servlet-class>com.ty.student.controller.UpdateStudentServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Get</servlet-name>
+  <url-pattern>/get</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
